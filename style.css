@@ -1,0 +1,77 @@
+
+html
+{
+-webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+
+#contact, #sampleWork, #about, #inputEmail, #inputPhone
+{
+    display: none;
+}
+
+#home
+{
+    display:block;
+}
+body
+{
+--navy-color: #172681;
+    background:url(pictures/water.jpg) 0 0 no-repeat;
+    background-size:cover; 
+}
+
+h4
+{
+text-alignment:center;
+}
+.form_required
+{
+    color:red;
+}
+#contentArea
+{
+    background-color:white;
+    opacity:0.5;
+    color: var(--navy-color);
+    padding:10px;
+    margin: 10px;
+    position: center;
+    border: 1px solid #172681;
+}
+
+.navbar {
+    margin-top: 0px;
+	padding: 0;
+	color: #172681;
+	border-color: #172681;
+	background-color: #e7f0f9;
+}
+
+.divider-vertical
+{
+    color: #172681;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #e7f0f9;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #172681;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #649abc;
+    color: #172681;
+}
+
+.error {color: #FF0000;}
+
+
